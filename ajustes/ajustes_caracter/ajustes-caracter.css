@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Cinzel+Decorative:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    color: #FFD700;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.5),
+                0 0 40px rgba(255, 255, 255, 0.3);
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 40px 0;
+    padding-left: 15px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    background-color: blue;
+}
+body{
+    background-image: url(../../assets/img/wireSettings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+     overflow: hidden;
+}
+.box{
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+}
+.avatar_box{
+    display: grid;
+    grid-template-columns: repeat(2 ,15vw);
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+.avatar_box div{
+    border: solid 5px #4682B4;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 13px;
+    cursor: pointer
+}
+.avatar_box div:hover{
+     height: 16vw;
+}
+.text{
+    /* background-color: ; */
+}
+img{
+    height: 90%;
+}

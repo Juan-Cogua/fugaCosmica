@@ -5,7 +5,7 @@ let span_vol=document.getElementById("span-vol")
 
 // ==================================================================================0
 
-const music_toggle = document.getElementById('music_toggle');
+const music_toggle = document.getElementById('music-toggle');
 
 // Recuperar estado guardado
 let volumen = localStorage.getItem('volumen') || 50;
